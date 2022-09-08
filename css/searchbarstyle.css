@@ -1,0 +1,132 @@
+body{
+    background: url('../gifs/cloud.gif');
+}
+#searchSection
+{
+    width: 30vw;
+    height: 30vh;
+    border-radius: 10px;
+    border: gray 3px solid;
+    margin-top: 30vh;
+    margin-left:35vw;
+    padding-left: 30px;
+    padding-top: 100px;
+}
+#infoSection{
+    display:none;
+}
+#long,#wind,#lat,#humidity
+{
+    width: 20vw;
+    height: 50vh;
+    border: bisque 3px solid;
+    border-radius: 30px;
+    margin: 20px;
+    margin-top: 3vh;
+    float: left;
+    text-align: center;
+}
+#long
+{
+    margin-left: 60px;
+}
+#humidity ,#long
+{
+    background: url('../gifs/sun.gif');
+    background-position: center;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#lat, #wind
+{
+    background: url('../gifs/ss.gif');
+    background-position: center;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+#lat:hover,#wind:hover,#long:hover,#humidity:hover
+{
+    opacity: 1;
+}
+#inp
+{
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    height: 30px;
+    border-radius: 8px;
+    margin-left: 70px;
+    letter-spacing: 5px;
+    font-size: bold;
+}
+#submitbtn
+{
+    margin-top: 10px;
+    margin-left: 150px;
+    padding:10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(182, 160, 160);
+    width: 100px;
+}
+#submitbtn:hover{
+   background-color:rgb(184, 179, 135);
+}
+#cityName
+{
+    text-align: center;
+    text-shadow: cornsilk;
+    font-family: 'Estonia';
+    font-size: 40px;
+    color:#5ad6c4;
+    margin-top:30px;
+    font-style: italic;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-weight: bolder;
+}
+
+#lat,#wind
+{
+    color: wheat;
+}
+#latLabel, #WinSpeedLabel ,#longLabel,#HumidityLabel
+{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+#head
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#result-2,#result-3,#result-4,#result-5
+{
+    padding-left:15vw;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color:cornsilk;
+}
+#my
+{
+    background: url('../gifs/sunbrish.gif');
+    background-position:center;
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    margin-left: 30vw;
+    margin-top: 10px;
+    border: 3px solid grey;
+    border-radius: 10px;
+    width: 35vw;
+       height: 20vh;
+       opacity: 0.5;
+       padding: 20px;
+       font-style: oblique;
+}
+#my:hover
+{
+    opacity: 1;
+}
